@@ -1,18 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
-  color: #404040;
-  font-size: 18px;
-  font-family: "Arial", sans-serif;
+  font-size: 16px;
   line-height: 24px;
+  font-family: "Arial", sans-serif;
+  color: #404040;
+  background-color: white;
+}
+
+.page-header {
+  background-image: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .page-header,
 .page-footer {
   padding: 10px;
-  background-color: #363636;
   color: #c3c3c3;
+  background-color: #363636;
 }
 
 .main-nav {
@@ -38,8 +45,8 @@ body {
 
 .btn {
   color: #a38b70;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -51,11 +58,11 @@ body {
 }
 
 .promo {
-  text-align: center;
   font-weight: bold;
   font-size: 45px;
-  font-family: "Georgia", serif;
   line-height: 55px;
+  font-family: "Georgia", serif;
+  text-align: center;
 }
 
 .promo a {
@@ -68,24 +75,33 @@ body {
 }
 
 .feature-item {
-  border-left: 1px solid #d9d9d9;
+  padding-top: 90px;
   text-align: center;
+  border-left: 1px solid #d9d9d9;
 }
 
 .feature-item:first-child {
   border-left: none;
 }
 
-.feature-title {
-  color: #a38b70;
-  font-weight: bold;
-  font-size: 30px;
-  font-family: "Georgia", serif;
-  line-height: 30px;
+.feature-choice {
+  background: url("../img/feature-1.png") top center no-repeat;
 }
 
-.feature-item p {
-  font-size: 16px;
+.feature-quality {
+  background: url("../img/feature-2.png") top center no-repeat;
+}
+
+.feature-safety {
+  background: url("../img/feature-3.png") top center no-repeat;
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
 }
 
 .cat-reference {
@@ -93,15 +109,11 @@ body {
 }
 
 .section-title {
-  color: #a38b70;
   font-weight: bold;
   font-size: 45px;
-  font-family: "Georgia", serif;
   line-height: 55px;
-}
-
-.cat-reference dd {
-  font-size: 16px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
 }
 
 .cat-reference dd img {
@@ -115,7 +127,6 @@ body {
 .reference-source {
   color: #666666;
   font-style: italic;
-  font-size: 16px;
 }
 
 .reference-source a {
@@ -132,7 +143,6 @@ body {
 
 .review-item {
   border-left: 3px solid #a38b70;
-  font-size: 16px;
 }
 
 .review-author {
@@ -144,13 +154,9 @@ body {
   background-color: #f2f2f2;
 }
 
-.catalog-item {
-  font-size: 16px;
-}
-
 .catalog-item h3 {
-  color: #000000;
   font-size: 16px;
+  color: #000000;
 }
 
 .price-list {
@@ -160,10 +166,10 @@ body {
 }
 
 .price-list th {
-  text-align: left;
-  text-transform: uppercase;
   font-weight: normal;
   font-size: 14px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .price-list td {
@@ -180,12 +186,15 @@ body {
 }
 
 .price-list .price-name {
-  color: #000000;
   font-weight: bold;
+  color: #000000;
 }
 
-.feedback-tip {
-  font-size: 16px;
+.feedback-form {
+  padding-right: 390px;
+  background-image: url("../img/write.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 40px;
 }
 
 .feedback-form-group {
@@ -193,16 +202,16 @@ body {
 }
 
 .feedback-form-group label {
-  text-transform: uppercase;
   font-size: 12px;
+  text-transform: uppercase;
 }
 
 .feedback-form input[type="text"],
 .feedback-form select,
 .feedback-form textarea {
-  border: 2px solid #d5d5d5;
-  color: inherit;
   font: inherit;
+  color: inherit;
+  border: 2px solid #d5d5d5;
 }
 
 .feedback-form input[type="text"]:hover,
@@ -231,10 +240,10 @@ body {
 }
 
 .footer-menu h3 {
-  color: #a38b70;
   font-weight: bold;
   font-size: 24px;
   font-family: "Georgia", serif;
+  color: #a38b70;
 }
 
 .footer-menu ul {
@@ -244,7 +253,6 @@ body {
 .footer-menu a {
   color: #c3c3c3;
   text-decoration: none;
-  font-size: 16px;
 }
 
 .footer-menu a:hover {
@@ -256,9 +264,9 @@ body {
 }
 
 .footer-social b {
-  color: #a38b70;
   font-size: 24px;
   font-family: "Georgia", serif;
+  color: #a38b70;
 }
 
 .social-btn {
